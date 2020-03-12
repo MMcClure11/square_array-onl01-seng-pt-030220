@@ -15,17 +15,6 @@ def square_array_with_collect(arr)
   arr.collect {|element| element **2}
 end 
 
-
-
-
-
-
-
-
-
-
-
-
 # def square_array(array)
 #   numbers = []
 #   array.each do |number| numbers << number ** 2
