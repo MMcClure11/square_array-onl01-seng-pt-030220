@@ -11,7 +11,9 @@ def square_array(arr)
   arr_new
 end   
 
-
+def square_array_with_collect(arr)
+  arr.collect {|element| element **2}
+end 
 
 
 
